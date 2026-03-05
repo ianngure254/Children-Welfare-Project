@@ -23,7 +23,9 @@
     "firebase-admin": "^12.7.0",
     "helmet": "^8.1.0",
     "mongoose": "^9.2.1",
-    "morgan": "^1.10.1",
-    "nodemon": "^1.0.2"
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
