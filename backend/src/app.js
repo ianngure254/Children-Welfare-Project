@@ -40,8 +40,8 @@ app.use((req, res, next) => {
 //CORS CROSS-ORIGIN
 // allow multiple development origins and any value stored in CLIENT_URL
 const allowedOrigins = [
-    process.env.CLIENT_URL,
-    'https://give-and-receive.onrender.com'
+    process.env.CLIENT_URL, 'https://give-and-receive.onrender.com/api'
+   
 ];
 
 app.use(cors({
