@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 // allow multiple development origins and any value stored in CLIENT_URL
 const allowedOrigins = [
     process.env.CLIENT_URL,
-    'http://localhost:5173'
+    'https://give-and-receive.onrender.com'
 ];
 
 app.use(cors({
