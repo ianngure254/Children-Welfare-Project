@@ -28,8 +28,13 @@
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
+<<<<<<< HEAD
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^5.1.0",
+=======
+    "eslint": "^10.0.2",
+    "eslint-plugin-react-hooks": "^7.0.1",
+>>>>>>> eb91a6082c132479651229730d17c7d69184b373
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
     "vite": "^8.0.0-beta.13"
