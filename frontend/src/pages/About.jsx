@@ -8,11 +8,14 @@ const About = () => {
   
   // Joy-themed images from assets
   const joyImages = [
-    { src: '/src/assets/joy.png', alt: 'Joy in Christ' },
-    { src: '/src/assets/mercy.png', alt: 'Divine Mercy' },
-    { src: '/src/assets/peace.png', alt: 'Peace of God' },
-    { src: '/src/assets/love.png', alt: 'God\'s Love' },
-    { src: '/src/assets/faith.png', alt: 'Living Faith' }
+
+    { src: '/public/assets/joy.png', alt: 'Joy in Christ' },
+    { src: '/public/assets/mercy.png', alt: 'Divine Mercy' },
+    { src: '/public/assets/peace.png', alt: 'Peace of God' },
+    { src: '/public/assets/love.png', alt: "God's Love" },
+    { src: '/public/assets/faith.png', alt: 'Living Faith' }
+
+
   ];
 
   // Auto-rotate images

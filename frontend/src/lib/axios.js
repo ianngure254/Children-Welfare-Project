@@ -2,7 +2,11 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://charity-alcy.onrender.com/api',
+<<<<<<< HEAD
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://charity-alcy.onrender.com',
+=======
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://localhost:3000/api',
+>>>>>>> eb91a6082c132479651229730d17c7d69184b373
   headers: {
     'Content-Type': 'application/json',
   },
